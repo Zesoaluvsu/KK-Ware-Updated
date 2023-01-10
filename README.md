@@ -1,24 +1,30 @@
+
 game.StarterGui:SetCore("SendNotification",  {
- Title = "HI";
- Text = "U BETTER SAY IT BACK";
+ Title = "Executed.";
+ Text = "Made By KKxz";
  Icon = "http://www.roblox.com/asset/?id=951528747";
  Duration = 98083905839058095809389034;
- Button1 = "heyyy";
- Button2 = "wsg";
- Button3 = "hi";
+ Button1 = "Close";
+ Button2 = "W";
+ Button3 = "W";
  Callback = NotificationBindable;
 }
 )
 local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))()
 
 local MainUI = UILibrary.Load("KK Ware")
-local FirstPage = MainUI.AddPage(" ")
-local SecondPage = MainUI.AddPage("Locks")
-local ThirdPage = MainUI.AddPage("Fun Menu")
+local FirstPage = MainUI.AddPage("Aiming")
+local SecondPage = MainUI.AddPage("DONT USE")
+local ThirdPage = MainUI.AddPage("Become Rich 💰")
 local FourthPage = MainUI.AddPage("Anims")
-local FifthPage = MainUI.AddPage("Combat Menu")
+local FifthPage = MainUI.AddPage("Combat")
 local x = MainUI.AddPage("Auto Buy")
 local y = MainUI.AddPage("Fun Menu")
+
+local FirstLabel = FirstPage.AddLabel("DONT USE")
+local FirstLabel = ThirdPage.AddLabel("Rich Stuff CS")
+local FirstLabel = FourthPage.AddLabel("FE Animations")
+local FirstLabel = FifthPage.AddLabel("Combat")
 
 local FirstLabel = FirstPage.AddLabel("Locks")
 local FirstLabel = ThirdPage.AddLabel("Become Rich | CS")
