@@ -12,14 +12,14 @@ game.StarterGui:SetCore("SendNotification",  {
 )
 local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))()
 
-local MainUI = UILibrary.Load("KK Ware - KK's Hub")
+local MainUI = UILibrary.Load("KK Ware - KK's Script Hub")
 local FirstPage = MainUI.AddPage("Aiming")
-local SecondPage = MainUI.AddPage("COMIN SOON")
+local SecondPage = MainUI.AddPage("no click")
 local ThirdPage = MainUI.AddPage("Become Rich 💰")
 local FourthPage = MainUI.AddPage("Anims")
 local FifthPage = MainUI.AddPage("Combat")
-local x = MainUI.AddPage("Auto Buy")
-local y = MainUI.AddPage("Fun Menu")
+local x = MainUI.AddPage("more soon")
+local y = MainUI.AddPage("more soon")
 
 
 local FirstLabel = FirstPage.AddLabel("Locks")
@@ -845,7 +845,7 @@ local FirstButton = FifthPage.AddButton("Anti Grab", function()
 				game.Players.LocalPlayer.Character.Humanoid:ChangeState(3)
 			end
 end)
-local FirstButton = FifthPage.AddButton("Infinte Jump", function()
+local FirstButton = FifthPage.AddButton("Infinite Jump", function()
 local player = game.Players.LocalPlayer
 		local spacedown = false
 		staminup = true
@@ -870,22 +870,8 @@ local player = game.Players.LocalPlayer
 			end
 		end)
 end)
-local FirstButton = FifthPage.AddButton("No Recoil", function()
-		local player = game.Players.LocalPlayer
-		for i,v in pairs(game:GetService('Workspace'):GetChildren()) do
-			if v:IsA('Camera') then
-				v:Destroy()
-			end
-		end
-		local newcam = Instance.new('Camera')
-		newcam.Parent = game:GetService('Workspace')
-		newcam.Name = 'Camera'
-		newcam.CameraType = 'Custom'
-		newcam.CameraSubject = player.Character:FindFirstChildWhichIsA('Humanoid')
-		newcam.HeadLocked = true
-		newcam.HeadScale = 1 
-end)
-local FirstButton = x.AddButton("Double Barrel [fixing]", function()
+
+local FirstButton = x.AddButton("DONT CLICK", function()
 local Workspace = game:GetService("Workspace")
 local Players = game.Players.LocalPlayer
 
@@ -919,7 +905,7 @@ game.ReplicatedStorage:FindFirstChild(".gg/untitledhood"):FireServer(
 
 wait(2)
 end)
-local FirstButton = x.AddButton("Revolver [fixing]", function()
+local FirstButton = x.AddButton("DONT CLICK", function()
 local Workspace = game:GetService("Workspace")
 local Players = game.Players.LocalPlayer
 
@@ -953,7 +939,7 @@ game.ReplicatedStorage:FindFirstChild(".gg/untitledhood"):FireServer(
 
 wait(2)
 end)
-local FirstButton = x.AddButton("Revolver Ammo [fixing]", function()
+local FirstButton = x.AddButton("DONT CLICK", function()
 local Workspace = game:GetService("Workspace")
 local Players = game.Players.LocalPlayer
 
@@ -987,7 +973,7 @@ game.ReplicatedStorage:FindFirstChild(".gg/untitledhood"):FireServer(
 
 wait(2)
 end)
-local FirstButton = x.AddButton("Double Barrel Ammo [fixing]", function()
+local FirstButton = x.AddButton("DONT CLICK", function()
 local Workspace = game:GetService("Workspace")
 local Players = game.Players.LocalPlayer
 
@@ -1308,7 +1294,7 @@ local FirstButton = y.AddButton("Animation Pass", function()
 		end)
 	end
 )
-local FirstButton = y.AddButton("UNTITLED SCRIPT", function()
+local FirstButton = y.AddButton("DONT CLICK", function()
         function Hearing()
             function sandbox(var,func)
                 local env = getfenv(func)
@@ -1482,27 +1468,27 @@ local FirstButton = y.AddButton("UNTITLED SCRIPT", function()
         Hearing()
     end
 )
-local FirstButton = y.AddButton("Minecraft Heart", function()
+local FirstButton = y.AddButton("DONT CLICK", function()
 game.Players.LocalPlayer.PlayerGui.MainScreenGui.Bar.HP.Picture.Life.Visible = true
 game.Players.LocalPlayer.PlayerGui:WaitForChild("MainScreenGui"):WaitForChild("Bar"):WaitForChild("HP"):WaitForChild("Picture"):WaitForChild("Life").Visible = true
 end)
 local FirstSlider = y.AddSlider("FOV Toggle", {Min = 0, Max = 120, Def = 70}, function(slider)
 workspace.CurrentCamera.FieldOfView = (slider)
 end)
-y.AddButton("Chat Logs", function()
+y.AddButton("DONT CLICK", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/nzXicwc1", true))()
 end)
-y.AddButton("Click To Sit", function()
+y.AddButton("DONT CLICK", function()
 game.Players.LocalPlayer.Character.Humanoid.Sit = true
 end)
-y.AddButton("Titan [NEEDS MAX BUFF TO WORK]", function()
+y.AddButton("DONT CLICK", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EndmeMercury/endmemercury/main/titan"))()
 end)
-y.AddButton("Fat Size", function()
+y.AddButton("DONT CLICK", function()
 game.Players.LocalPlayer.Character.Humanoid.BodyDepthScale:Destroy()
 game.Players.LocalPlayer.Character.Humanoid.BodyWidthScale:Destroy()
 end)
-y.AddButton("Spider Man", function()
+y.AddButton("DONT CLICK", function()
 	function AddVelocity(Vel, Char)
 		Char.HumanoidRootPart.Velocity = Char.HumanoidRootPart.Velocity+Vel
 	end
@@ -1593,7 +1579,7 @@ y.AddButton("Spider Man", function()
 		end
 	end)
 end)
-y.AddButton("Extra Skinny", function()
+y.AddButton("DONT CLICK", function()
 	game.Players.LocalPlayer.Chatted:Connect(function(msg)
 		if msg == "Skinny!" then
 			local Humanoid = game.Players.LocalPlayer.Character.Humanoid;
@@ -1855,7 +1841,7 @@ y.AddButton("Extra Skinny", function()
 		end
 	end)
 end)
-y.AddButton("Dab (H)", function()
+y.AddButton("DONT CLICK", function()
 	local mouse = game.Players.LocalPlayer:GetMouse()
 	mouse.KeyDown:connect(function(key)
 		if key == "h" then
@@ -1867,7 +1853,7 @@ y.AddButton("Dab (H)", function()
 		end
 	end)
 end)
-y.AddButton("Shazam (CS)", function()
+y.AddButton("DONT CLICK", function()
 	game:GetService("Players").LocalPlayer.Chatted:Connect(function(arg)
 		if arg == "Shazam!" then
 			repeat
@@ -2087,7 +2073,7 @@ y.AddButton("Shazam (CS)", function()
 		end
 	end)
 end)
-y.AddButton("Open Admin Base Door", function()
+y.AddButton("DONT CLICK", function()
 game:GetService('Workspace'):FindFirstChild('MAP'):FindFirstChild('EVIL_SPECIAL'):FindFirstChildWhichIsA('Sound').Volume = math.huge;
 	game:GetService('Workspace'):FindFirstChild('MAP'):FindFirstChild('EVIL_SPECIAL'):FindFirstChildWhichIsA('Sound').Playing = true;
 	for i = 1, 26 do
@@ -2095,18 +2081,18 @@ game:GetService('Workspace'):FindFirstChild('MAP'):FindFirstChild('EVIL_SPECIAL'
 		workspace:FindFirstChild('MAP'):FindFirstChild('EVIL_SPECIAL').CFrame = workspace:FindFirstChild('MAP'):FindFirstChild('EVIL_SPECIAL').CFrame + Vector3.new(0, 1, 0);
 	end;
 end)
-y.AddButton("Close Admin Base Door", function()
+y.AddButton("DONT CLICK", function()
 	game:GetService('Workspace'):FindFirstChild('MAP'):FindFirstChild('EVIL_SPECIAL'):FindFirstChildWhichIsA('Sound').Playing = true;
 	for i = 1, 26 do
 		wait();
 		workspace:FindFirstChild('MAP'):FindFirstChild('EVIL_SPECIAL').CFrame = workspace:FindFirstChild('MAP'):FindFirstChild('EVIL_SPECIAL').CFrame + Vector3.new(0, -1, 0);
 	end;
 end)
-y.AddButton("Infinte Zoom", function()
+y.AddButton("DONT CLICK", function()
 game.Players.localPlayer.CameraMaxZoomDistance = 150
 	game.Players.LocalPlayer.CameraMinZoomDistance = 0
 end)
-y.AddButton("No Bones", function()
+y.AddButton("DONT CLICK", function()
 	local Stuff = {"RightHand", "LeftHand","RightUpperArm","RightLowerArm","LeftUpperArm","LeftLowerArm","Head","UpperTorso"}
 
 	pcall(function()
@@ -2122,7 +2108,7 @@ y.AddButton("No Bones", function()
 		end
 	end)
 end)
-y.AddButton("Taze (fake) [H]", function()
+y.AddButton("DONT CLICK", function()
 local mouse = game.Players.LocalPlayer:GetMouse()
 	mouse.KeyDown:connect(function(key)
 		if key == "h" then
@@ -2134,29 +2120,29 @@ local mouse = game.Players.LocalPlayer:GetMouse()
 		end
 	end)
 end)
-y.AddButton("No Right Leg", function()
+y.AddButton("DONT CLICK", function()
 	game.Players.LocalPlayer.Character.RightUpperLeg:Destroy()
 end)
-y.AddButton("No Left Leg", function()
+y.AddButton("DONT CLICK", function()
 	game.Players.LocalPlayer.Character.LeftUpperLeg:Destroy()
 end)
-y.AddButton("No Seats", function()
+y.AddButton("DONT CLICK", function()
 	for i, v in next, game.Workspace:GetDescendants() do
 		if v:IsA("Seat") then
 			v:Destroy()
 		end
 	end
 end)
-y.AddButton("Destroy Face", function()
+y.AddButton("DONT CLICK", function()
 	game.Players.LocalPlayer.Character.Head.face:Destroy()
 end)
-y.AddSlider("Change Money (CS)", {Min = 0, Max = 999999999, Def = 200000}, function(Value)
+y.AddSlider("Money Change", {Min = 0, Max = 45328743438934, Def = 200000}, function(Value)
 	game.Players.LocalPlayer.DataFolder.Currency.Value = Value
 end)
-y.AddSlider("Bounty Change (CS)", {Min = 0, Max = 999999999, Def = 200000}, function(Value)
+y.AddSlider("Bounty Change", {Min = 0, Max = 999999999, Def = 200000}, function(Value)
 	game.Players.LocalPlayer.DataFolder.Information.Wanted.Value = Value
 end)
-y.AddButton("Money ESP", function()
+y.AddButton("DONT CLICK", function()
 	local ESPholder = Instance.new("Folder", game.CoreGui)
 	function cham(object)
 		if object.Name == "MoneyDrop" then
