@@ -1,7 +1,7 @@
 
 game.StarterGui:SetCore("SendNotification",  {
  Title = "Executed.";
- Text = "Made By KKxz";
+ Text = "My Disc: 0001#4349";
  Icon = "http://www.roblox.com/asset/?id=951528747";
  Duration = 98083905839058095809389034;
  Button1 = "Close";
@@ -12,9 +12,9 @@ game.StarterGui:SetCore("SendNotification",  {
 )
 local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))()
 
-local MainUI = UILibrary.Load("KK Ware")
+local MainUI = UILibrary.Load("KK Ware - KK's Hub")
 local FirstPage = MainUI.AddPage("Aiming")
-local SecondPage = MainUI.AddPage("DONT USE")
+local SecondPage = MainUI.AddPage("COMIN SOON")
 local ThirdPage = MainUI.AddPage("Become Rich 💰")
 local FourthPage = MainUI.AddPage("Anims")
 local FifthPage = MainUI.AddPage("Combat")
@@ -233,7 +233,7 @@ getgenv().Enabled = true
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tenaaki/GenericAimbot/main/v1.0.0"))()
 end)
-local FirstButton = FirstPage.AddButton("Dot Lock (e)", function()
+local FirstButton = FirstPage.AddButton("Dot Lock (E)", function()
 local Settings = {
     rewrittenmain = {
         Enabled = true,
