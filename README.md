@@ -21,10 +21,6 @@ local FifthPage = MainUI.AddPage("Combat")
 local x = MainUI.AddPage("Auto Buy")
 local y = MainUI.AddPage("Fun Menu")
 
-local FirstLabel = FirstPage.AddLabel("DONT USE")
-local FirstLabel = ThirdPage.AddLabel("Rich Stuff CS")
-local FirstLabel = FourthPage.AddLabel("FE Animations")
-local FirstLabel = FifthPage.AddLabel("Combat")
 
 local FirstLabel = FirstPage.AddLabel("Locks")
 local FirstLabel = ThirdPage.AddLabel("Become Rich | CS")
@@ -534,7 +530,7 @@ getgenv().game.Players.LocalPlayer.Character.Head.Transparency = 1
     getgenv().game.Players.LocalPlayer.Character.Head.face:Destroy()
     getgenv().game.Players.LocalPlayer.Character.Head.face:Destroy()
 end)
-local FirstButton = ThirdPage.AddButton("I forgor💀", function()
+local FirstButton = ThirdPage.AddButton("Korblox (RL)", function()
 local ply = game.Players.LocalPlayer
 	local chr = ply.Character
 	chr.RightLowerLeg.MeshId = "902942093"
@@ -544,7 +540,7 @@ local ply = game.Players.LocalPlayer
 	chr.RightFoot.MeshId = "902942089"
 	chr.RightFoot.Transparency = "1"
 end)
-local FirstButton = ThirdPage.AddButton("Korblox CS", function()
+local FirstButton = ThirdPage.AddButton("Korblox (LL)", function()
 local ply = game.Players.LocalPlayer
 local chr = ply.Character
 chr.LeftLowerLeg.MeshId = "101851582"
