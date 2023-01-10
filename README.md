@@ -12,10 +12,11 @@ game.StarterGui:SetCore("SendNotification",  {
 local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))()
 
 local MainUI = UILibrary.Load("KK Ware")
-local FirstPage = MainUI.AddPage("Locks")
-local SecondPage = MainUI.AddPage("Fun Menu")
-local ThirdPage = MainUI.AddPage("Anims")
-local FourthPage = MainUI.AddPage("Combat Menu")
+local FirstPage = MainUI.AddPage(" ")
+local SecondPage = MainUI.AddPage("Locks")
+local ThirdPage = MainUI.AddPage("Fun Menu")
+local FourthPage = MainUI.AddPage("Anims")
+local FifthPage = MainUI.AddPage("Combat Menu")
 local x = MainUI.AddPage("Auto Buy")
 local y = MainUI.AddPage("Fun Menu")
 
