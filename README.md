@@ -13,17 +13,16 @@ local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))(
 
 local MainUI = UILibrary.Load("KK Ware")
 local FirstPage = MainUI.AddPage("Locks")
-local SecondPage = MainUI.AddPage(" ")
-local ThirdPage = MainUI.AddPage("ESP Menu")
-local FourthPage = MainUI.AddPage("Anims")
-local FifthPage = MainUI.AddPage("Combat Menu")
+local SecondPage = MainUI.AddPage("Fun Menu")
+local ThirdPage = MainUI.AddPage("Anims")
+local FourthPage = MainUI.AddPage("Combat Menu")
 local x = MainUI.AddPage("Auto Buy")
 local y = MainUI.AddPage("Fun Menu")
 
-local FirstLabel = FirstPage.AddLabel("Aimlock [IN TESTING]")
+local FirstLabel = FirstPage.AddLabel("Locks")
 local FirstLabel = ThirdPage.AddLabel("Become Rich | CS")
 local FirstLabel = FourthPage.AddLabel("Animations FE")
-local FirstLabel = FifthPage.AddLabel("Combat| FE")
+local FirstLabel = FifthPage.AddLabel("Combat")
 local FirstButton = FirstPage.AddButton("Cam lock (Q)", function()
 getgenv().AimPart = "HumanoidRootPart"
 	local sound = Instance.new("Sound")
