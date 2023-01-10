@@ -14,7 +14,7 @@ local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))(
 
 local MainUI = UILibrary.Load("KK Ware - KK's Script Hub")
 local FirstPage = MainUI.AddPage("Aiming")
-local SecondPage = MainUI.AddPage("no click")
+local SecondPage = MainUI.AddPage("Deleted")
 local ThirdPage = MainUI.AddPage("Become Rich 💰")
 local FourthPage = MainUI.AddPage("Anims")
 local FifthPage = MainUI.AddPage("Combat")
